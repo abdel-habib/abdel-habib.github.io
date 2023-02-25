@@ -77,9 +77,11 @@ a:hover {
 
 .hero-container .image .profile-image {
     /* transform: scale(1.45); */
-    width: 390px;
+    width: 350px;
     /* height: 400px; */
     /* border-radius: 50%; */
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 @media (max-width: 960px) {
