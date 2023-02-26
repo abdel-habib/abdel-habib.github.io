@@ -1,0 +1,18 @@
+[
+    {    
+        "title": "Pneumonia Detection from Chest X-Rays",
+        "date": "",
+        "description": "The project aimed to apply It also includes exploratory data analysis (EDA) process on a chest x-rays dataset, train a model that can predict the presence of pneumonia with human radiologist-level accuracy that can be prepared for submission to the FDA for 510(k) clearance as software as a medical device, as well as clinical workflow integration.",
+        "link": "/",
+        "image": "./public/images/projects/pneumonia-detection.png",
+        "image_animated": "./public/images/projects/pneumonia-detection-animated.gif"
+    },
+    {    
+        "title": "Hippocampal Volume Quantification in Alzheimer's Progression",
+        "date": "",
+        "description": "The project aimed to build an end-to-end AI system which features a machine learning algorithm to measure the hippocampal volumes by training a U-net based segmentation model, integrates it into a clinical-grade viewer and automatically measures hippocampal volumes of new patients.",
+        "link": "/",
+        "image": "./public/images/projects/hippocampus-mri.jpg",
+        "image_animated": "./public/images/projects/hippocampus-animated.gif"
+    }
+]

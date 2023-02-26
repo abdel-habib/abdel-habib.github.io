@@ -4807,7 +4807,7 @@ fieldset:disabled .btn {
     color: #fff
 }
 
-.card {
+/* .card {
     position        : relative;
     display         : flex;
     flex-direction  : column;
@@ -4817,7 +4817,7 @@ fieldset:disabled .btn {
     background-clip : border-box;
     border          : 1px solid rgba(0, 0, 0, .125);
     border-radius   : .25rem
-}
+} */
 
 .card>hr {
     margin-right: 0;

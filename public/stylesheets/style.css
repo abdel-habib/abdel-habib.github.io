@@ -4,24 +4,25 @@
     --gray: #eee;
     --primary-font-color: #13131b;
     --secondary-font-color: #F60000;
+    --box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
 }
 
-html::-webkit-scrollbar-track, .cool-scroll::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track, .cool-scroll::-webkit-scrollbar-track, .card-slider::-webkit-scrollbar-track, .cool-scroll::-webkit-scrollbar-track{
     -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.2);border-radius:10px;
     background-color:#F5F5F500
 }
   
-  html::-webkit-scrollbar,.cool-scroll::-webkit-scrollbar{
+  html::-webkit-scrollbar,.cool-scroll::-webkit-scrollbar, .card-slider::-webkit-scrollbar{
     background-color:#F5F5F5F5;
     height:10px;
     width:10px
 }
 
-html::-webkit-scrollbar-thumb,.cool-scroll::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb,.cool-scroll::-webkit-scrollbar-thumb, .card-slider::-webkit-scrollbar-thumb{
     background-color:#CCC;
     border-radius:10px;
     -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.2)
-}
+} 
 
 .body{
     /* font-family: 'Changa', sans-serif; */
@@ -90,8 +91,81 @@ a:hover {
     /* height: 400px; */
     /* border-radius: 50%; */
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: var(--box-shadow);
 }
+
+
+.card-slider {
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow-x: auto; */
+    /* scroll-snap-type: x mandatory; */
+    padding-bottom: 30px;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 352px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    scroll-snap-align: start;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* .card:hover .card-image img {
+    transform: scale(1.1);
+} */
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    display: block;
+    width: 100%;
+    transition: transform 0.5s ease;
+    border-radius: 8px 8px 0 0;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify; 
+}
+
+.card-date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.card-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.card-link:hover {
+    background-color: #555;
+}
+  
 
 @media (max-width: 960px) {
     .desktop-only {
@@ -112,6 +186,13 @@ a:hover {
     .hero-container .image .profile-image{
       margin-top: 2rem;
       width: 324px;
+    }
+
+    .card-slider{
+        
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
     }
 }
   
