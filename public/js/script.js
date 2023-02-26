@@ -7,9 +7,9 @@ fetch('.\\public\\json\\projects.json')
     data.forEach((object, index) => {
         // <img onmouseout="${object.image}" onmouseover="${object?.image_animated || ''}" src="${object.image}" alt="Project ${index+1}">
         html += `
-        <div class="card">
+        <div class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
             <div class="card-image">
-                <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" src="${object.image}"> 
+                <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" id="card-img-${index+1}" src="${object.image}"> 
 
             </div>
             <div class="card-content">
@@ -32,3 +32,7 @@ fetch('.\\public\\json\\projects.json')
 .catch(error => console.error(error));
 
 
+// onhover change image on all card element
+function onHoverCard(index, src){
+    document.getElementById(`card-img-${index}`).src = src
+}
