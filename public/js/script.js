@@ -3,31 +3,68 @@ fetch('.\\public\\json\\projects.json')
 .then(response => response.json())
 .then(data => {
     let html = '';
-    
+    let html_projects_page = '';
+    let count = 0;
+
+    // loop for homepage
     data.forEach((object, index) => {
-        // <img onmouseout="${object.image}" onmouseover="${object?.image_animated || ''}" src="${object.image}" alt="Project ${index+1}">
+        if(index > 7) return;
+
         html += `
-        <div class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
-            <div class="card-image">
-                <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" id="card-img-${index+1}" src="${object.image}"> 
+            <div class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
+                <div class="card-image">
+                    <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" id="card-img-${index+1}" src="${object.image}"> 
 
-            </div>
-            <div class="card-content">
-                <h3 class="card-title">${object.title}</h3>
-                <p class="card-description">${object.description}</p>`
-                
-                if(object.date != ""){
-                    html += 
-                    `<p class="card-date">${object.date}</p>`
-                }
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">${object.title}</h3>
+                    <p class="card-description">${object.description}</p>`
+                    
+                    if(object.date != ""){
+                        html += 
+                        `<p class="card-date">${object.date}</p>`
+                    }
 
-    html +=
-                `
+            html +=
+                        `
+                    </div>
+                </div>
+        `
+    });
+
+    // loop for projects page
+    data.forEach((object, index) => {
+        html_projects_page += `
+            <div class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
+                <div class="card-image">
+                    <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" id="card-img-${index+1}" src="${object.image}"> 
+
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">${object.title}</h3>
+                    <p class="card-description">${object.description}</p>`
+                    
+                    if(object.date != ""){
+                        html_projects_page += 
+                        `<p class="card-date">${object.date}</p>`
+                    }
+
+                    html_projects_page +=
+                    `
+                </div>
             </div>
-        </div>
-    `
-});
-    document.getElementById('card-slider').innerHTML += html;
+        `
+        count++;
+    
+    })
+
+    let projects = document.getElementById('card-slider');
+    let projects_all = document.getElementById('card-slider-all');
+
+    if(projects) projects.innerHTML += html;
+    if(projects_all) projects_all.innerHTML += html_projects_page;
+
+    document.getElementById('projects-count').innerHTML = `(${count})`
 })
 .catch(error => console.error(error));
 
