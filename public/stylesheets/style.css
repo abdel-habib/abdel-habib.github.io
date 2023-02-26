@@ -1,6 +1,7 @@
 :root {
     --white: #fff;
     --black: #000;
+    --gray: #eee;
     --primary-font-color: #13131b;
     --secondary-font-color: #F60000;
 }
@@ -51,6 +52,12 @@ a:hover {
     color: var(--secondary-font-color);
 }
 
+.section-margin {
+    -webkit-box-shadow:0px 1px 1px var(--gray);
+    -moz-box-shadow:0px 1px 1px var(--gray);
+    box-shadow:0px 1px 1px var(--gray);
+}
+
 .font-color-secondary {
     color: var(--secondary-font-color);
     /* font-weight: bold; */
@@ -91,7 +98,20 @@ a:hover {
     .mobile-only {
       display: block !important;
     }
-  }
+}
+
+
+@media(max-width:576px){
+    
+    .hero-container .image {
+        justify-content: center !important;
+    }
+
+    .hero-container .image .profile-image{
+      margin-top: 2rem;
+      width: 324px;
+    }
+}
   
 
 /* 
