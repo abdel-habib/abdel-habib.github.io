@@ -8,16 +8,26 @@ fetch('.\\public\\json\\projects.json')
 
     // loop for homepage
     data.forEach((object, index) => {
-        if(index > 7) return;
+        if(index > 3) return;
 
         html += `
-            <a href="${object.link}" target="_blank" class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
+            <a href="${object.link}" target="_blank" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')"`
+            
+            if(object.link == ""){
+                console.log("HERE")
+                html += `class="card inactive-link"`;
+            }else{
+                html += `class="card"`;
+            }
+
+            html +=
+            `>
                 <div class="card-image">
                     <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" id="card-img-${index+1}" src="${object.image}"> 
 
                 </div>
                 <div class="card-content">
-                    <h3 class="card-title">${object.title}</h3>
+                    <h3 class="card-title">${object.title} <span class="font-color-secondary fs-6 fst-italic">${object?.status ? `(${object?.status})` : ""}</span></h3>
                     <p class="card-description">${object.description}</p>`
                     
                     if(object.date != ""){
@@ -35,13 +45,23 @@ fetch('.\\public\\json\\projects.json')
     // loop for projects page
     data.forEach((object, index) => {
         html_projects_page += `
-            <a href="${object.link}" target="_blank" class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
+            <a href="${object.link}" target="_blank" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')"`
+
+            if(object.link == ""){
+                console.log("HERE")
+                html_projects_page += `class="card inactive-link"`;
+            }else{
+                html_projects_page += `class="card"`;
+            }
+
+            html_projects_page +=
+            ` ">
                 <div class="card-image">
                     <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" id="card-img-${index+1}" src="${object.image}"> 
 
                 </div>
                 <div class="card-content">
-                    <h3 class="card-title">${object.title}</h3>
+                    <h3 class="card-title">${object.title} <span class="font-color-secondary fs-6 fst-italic">${object?.status ? `(${object?.status})` : ""}</span></h3>
                     <p class="card-description">${object.description}</p>`
                     
                     if(object.date != ""){

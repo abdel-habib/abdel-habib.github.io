@@ -44,6 +44,11 @@ html::-webkit-scrollbar-thumb,.cool-scroll::-webkit-scrollbar-thumb, .card-slide
     display: none;
 }
 
+.inactive-link {
+    pointer-events: none;
+    cursor: default;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -138,6 +143,7 @@ a:hover {
 .card-title {
     font-size: 24px;
     margin-bottom: 10px;
+    height: 92px;
 }
 
 .card-description {
