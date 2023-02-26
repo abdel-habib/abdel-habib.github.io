@@ -11,7 +11,7 @@ fetch('.\\public\\json\\projects.json')
         if(index > 7) return;
 
         html += `
-            <div class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
+            <a href="${object.link}" target="_blank" class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
                 <div class="card-image">
                     <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" id="card-img-${index+1}" src="${object.image}"> 
 
@@ -28,14 +28,14 @@ fetch('.\\public\\json\\projects.json')
             html +=
                         `
                     </div>
-                </div>
+                </a>
         `
     });
 
     // loop for projects page
     data.forEach((object, index) => {
         html_projects_page += `
-            <div class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
+            <a href="${object.link}" target="_blank" class="card" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')">
                 <div class="card-image">
                     <img onmouseover="this.src = '${object?.image_animated || ''}'" onmouseout="this.src = '${object.image}'" alt="Project ${index+1}" id="card-img-${index+1}" src="${object.image}"> 
 
@@ -52,7 +52,7 @@ fetch('.\\public\\json\\projects.json')
                     html_projects_page +=
                     `
                 </div>
-            </div>
+            </a>
         `
         count++;
     
