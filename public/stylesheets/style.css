@@ -105,7 +105,7 @@ a:hover {
 
 .card {
     flex: 0 0 auto;
-    width: 352px;
+    width: 304px;
     margin-right: 20px;
     margin-bottom: 20px;
     scroll-snap-align: start;
@@ -189,10 +189,9 @@ a:hover {
     }
 
     .card-slider{
-        
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
     }
 }
   
