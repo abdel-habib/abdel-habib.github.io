@@ -1,5 +1,13 @@
 [
     {    
+        "title": "Regularized General Eigenvalue Classifier (ReGEC)",
+        "date": "",
+        "description": "The project was aimed to implement ReGEC algorithm from scratch using R-programming language using different kernel types (linear and gaussian). The performance was evaluated using 4 datasets, which are Cleveland Heart Disease, Pima Indians, Breast Cancer, and German Datasets. The overall performance was significantly close or higher than the results reported in the paper.",
+        "link": "https://github.com/abdalrhmanu/Regularized-General-Eigenvalue-Classifier-ReGEC",
+        "image": "./public/images/projects/svm.png",
+        "image_animated": "./public/images/projects/svm.png"
+    },
+    {    
         "title": "Pneumonia Detection from Chest X-Rays",
         "date": "",
         "description": "The project was aimed to apply It also includes exploratory data analysis (EDA) process on a chest x-rays dataset, train a model that can predict the presence of pneumonia with human radiologist-level accuracy that can be prepared for submission to the FDA for 510(k) clearance as software as a medical device, as well as clinical workflow integration.",
