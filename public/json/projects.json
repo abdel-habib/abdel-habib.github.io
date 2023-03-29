@@ -1,44 +1,44 @@
 [
     {    
         "title": "Regularized General Eigenvalue Classifier (ReGEC)",
-        "date": "",
+        "date": "Mar 29, 2023",
         "description": "The project was aimed to implement ReGEC algorithm from scratch using R-programming language using different kernel types (linear and gaussian). The performance was evaluated using 4 datasets, which are Cleveland Heart Disease, Pima Indians, Breast Cancer, and German Datasets. The overall performance was significantly close or higher than the results reported in the paper.",
         "link": "https://github.com/abdalrhmanu/Regularized-General-Eigenvalue-Classifier-ReGEC",
         "image": "./public/images/projects/svm.png",
         "image_animated": "./public/images/projects/svm.png"
     },
     {    
-        "title": "Pneumonia Detection from Chest X-Rays",
-        "date": "",
-        "description": "The project was aimed to apply It also includes exploratory data analysis (EDA) process on a chest x-rays dataset, train a model that can predict the presence of pneumonia with human radiologist-level accuracy that can be prepared for submission to the FDA for 510(k) clearance as software as a medical device, as well as clinical workflow integration.",
-        "link": "https://github.com/abdalrhmanu/AI-for-Healthcare-Nanodegree/tree/main/Project%201/Pneumonia%20Detection%20From%20Chest%20X-Rays%20-%20Solved",
-        "image": "./public/images/projects/pneumonia-detection.png",
-        "image_animated": "./public/images/projects/pneumonia-detection-animated.gif"
-    },
-    {    
-        "title": "Hippocampal Volume Quantification in Alzheimer's Progression",
-        "date": "",
-        "description": "The project was aimed to build an end-to-end AI system which features a machine learning algorithm to measure the hippocampal volumes by training a U-net based segmentation model, integrates the system into a clinical-grade viewer and automatically measures hippocampal volumes of new patients, and generate reports based on the algorithm output.",
-        "link": "https://github.com/abdalrhmanu/AI-for-Healthcare-Nanodegree/tree/main/Project%202/Hippocampal%20Volume%20Quantification%20in%20Alzheimer's%20Progression",
-        "image": "./public/images/projects/hippocampus-mri.jpg",
-        "image_animated": "./public/images/projects/hippocampus-animated.gif"
+        "title": "Lung and Colon Cancer Histopathological Images",
+        "date": "Nov 11, 2021",
+        "description": "The project was aimed to explore a daaset of 25,000 histopathological images of 5 classes, build an image classification model and evaluate it using various evaluation metrics. The images were generated from an original sample of HIPAA compliant and validated sources, consisting of 750 total images of lung tissue, and 500 total images of colon tissue, and augmented to 25,000.",
+        "link": "https://github.com/abdalrhmanu/lung-and-colon-cancer-histopathological-images-kaggle",
+        "image": "./public/images/projects/histopathological-dataset.png",
+        "image_animated": "./public/images/projects/histopathological-dataset.png",
+        "status": "Ongoing"
     },
     {    
         "title": "Motion Compensated Pulse Rate Estimation",
-        "date": "",
+        "date": "Oct 13, 2021",
         "description": "The project was aimed to build a regression model to predict the estimated hospitalization time for a patient in order to help select/filter patients and evaluate model bias and uncertainty. Perform exploratory data analysis in order to identify the dataset level and perform feature selection, and build necessary categorical and numerical feature transformations.",
         "link": "https://github.com/abdalrhmanu/AI-for-Healthcare-Nanodegree/tree/main/Project%204",
         "image": "./public/images/projects/ppg-mechanics.png",
         "image_animated": "./public/images/projects/ppg-mechanics.png"
     },
     {    
-        "title": "Lung and Colon Cancer Histopathological Images",
-        "date": "",
-        "description": "The project was aimed to explore a daaset of 25,000 histopathological images of 5 classes, build an image classification model and evaluate it using various evaluation metrics. The images were generated from an original sample of HIPAA compliant and validated sources, consisting of 750 total images of lung tissue, and 500 total images of colon tissue, and augmented to 25,000.",
-        "link": "https://github.com/abdalrhmanu/lung-and-colon-cancer-histopathological-images-kaggle",
-        "image": "./public/images/projects/histopathological-dataset.png",
-        "image_animated": "./public/images/projects/histopathological-dataset.png",
-        "status": "Ongoing"
+        "title": "Hippocampal Volume Quantification in Alzheimer's Progression",
+        "date": "Sep 15, 2021",
+        "description": "The project was aimed to build an end-to-end AI system which features a machine learning algorithm to measure the hippocampal volumes by training a U-net based segmentation model, integrates the system into a clinical-grade viewer and automatically measures hippocampal volumes of new patients, and generate reports based on the algorithm output.",
+        "link": "https://github.com/abdalrhmanu/AI-for-Healthcare-Nanodegree/tree/main/Project%202/Hippocampal%20Volume%20Quantification%20in%20Alzheimer's%20Progression",
+        "image": "./public/images/projects/hippocampus-mri.jpg",
+        "image_animated": "./public/images/projects/hippocampus-animated.gif"
+    },
+    {    
+        "title": "Pneumonia Detection from Chest X-Rays",
+        "date": "Sep 14, 2021",
+        "description": "The project was aimed to apply It also includes exploratory data analysis (EDA) process on a chest x-rays dataset, train a model that can predict the presence of pneumonia with human radiologist-level accuracy that can be prepared for submission to the FDA for 510(k) clearance as software as a medical device, as well as clinical workflow integration.",
+        "link": "https://github.com/abdalrhmanu/AI-for-Healthcare-Nanodegree/tree/main/Project%201/Pneumonia%20Detection%20From%20Chest%20X-Rays%20-%20Solved",
+        "image": "./public/images/projects/pneumonia-detection.png",
+        "image_animated": "./public/images/projects/pneumonia-detection-animated.gif"
     },
     {    
         "title": "Skin Cancer Classification",
