@@ -10,7 +10,7 @@
     {    
         "title": "Healthcare AI: End-to-end AI solution for all of your use cases",
         "date": "Mar 21, 2023",
-        "description": "The project was aimed to develop an end-to-end solution for data storage, model training and deployment that doesn't require any code knowledge from the user. The platform allows the user to create an account, create project workspaces, upload image data, train an image classification model with a single button click, and deploy the trained model using an inference API.",
+        "description": "The project was aimed to develop an end-to-end solution for data storage, model training and deployment that doesn't require any coding knowledge from the user. The platform allows the user to create an account, create project workspaces, upload image data, train an image classification model with a single button click, and deploy the trained model using an inference API.",
         "link": "https://www.doctoroncall.com.my/healthcare-ai",
         "image": "./public/images/projects/healthcare-ai-cropped.png",
         "image_animated": "./public/images/projects/healthcare-ai.png"
