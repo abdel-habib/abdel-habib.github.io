@@ -8,13 +8,12 @@
         "image_animated": "./public/images/projects/svm.png"
     },
     {    
-        "title": "Lung and Colon Cancer Histopathological Images",
-        "date": "Nov 11, 2021",
-        "description": "The project was aimed to explore a daaset of 25,000 histopathological images of 5 classes, build an image classification model and evaluate it using various evaluation metrics. The images were generated from an original sample of HIPAA compliant and validated sources, consisting of 750 total images of lung tissue, and 500 total images of colon tissue, and augmented to 25,000.",
-        "link": "https://github.com/abdalrhmanu/lung-and-colon-cancer-histopathological-images-kaggle",
-        "image": "./public/images/projects/histopathological-dataset.png",
-        "image_animated": "./public/images/projects/histopathological-dataset.png",
-        "status": "Ongoing"
+        "title": "Healthcare AI: End-to-end AI solution for all of your use cases",
+        "date": "Mar 21, 2023",
+        "description": "The project was aimed to develop an end-to-end solution for data storage, model training and deployment that doesn't require any code knowledge from the user. The platform allows the user to create an account, create project workspaces, upload image data, train an image classification model with a single button click, and deploy the trained model using an inference API.",
+        "link": "https://www.doctoroncall.com.my/healthcare-ai",
+        "image": "./public/images/projects/healthcare-ai-cropped.png",
+        "image_animated": "./public/images/projects/healthcare-ai.png"
     },
     {    
         "title": "Motion Compensated Pulse Rate Estimation",
@@ -48,5 +47,14 @@
         "image": "./public/images/projects/skin-lesion-classification.png",
         "image_animated": "./public/images/projects/skin-lesion-classification.png",
         "status": ""
+    },
+    {    
+        "title": "Lung and Colon Cancer Histopathological Images",
+        "date": "",
+        "description": "The project was aimed to explore a daaset of 25,000 histopathological images of 5 classes, build an image classification model and evaluate it using various evaluation metrics. The images were generated from an original sample of HIPAA compliant and validated sources, consisting of 750 total images of lung tissue, and 500 total images of colon tissue, and augmented to 25,000.",
+        "link": "https://github.com/abdalrhmanu/lung-and-colon-cancer-histopathological-images-kaggle",
+        "image": "./public/images/projects/histopathological-dataset.png",
+        "image_animated": "./public/images/projects/histopathological-dataset.png",
+        "status": "Ongoing"
     }
 ]
