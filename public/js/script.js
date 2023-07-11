@@ -14,7 +14,7 @@ fetch('.\\public\\json\\projects.json')
             <a href="${object.link}" target="_blank" id="card-${index+1}" onmouseover="onHoverCard(${index+1}, '${object?.image_animated || ''}')" onmouseout="onHoverCard(${index+1}, '${object.image}')"`
             
             if(object.link == ""){
-                console.log("HERE")
+                // console.log("HERE")
                 html += `class="card inactive-link"`;
             }else{
                 html += `class="card"`;

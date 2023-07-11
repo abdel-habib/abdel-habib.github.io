@@ -2,7 +2,7 @@
     {    
         "title": "Breast Mass Detection and Segmentation Using Multi-scale Morphological Sifting and K-Means Clustering",
         "date": "June 19, 2023",
-        "description": "This project was implemented for mammographic mass detection and segmentation using a multi-scale morphological sifting approach integrated with a mean shift filter, k-means, and post-processing that detects and segments masses. It was evaluated on the a mammographic dataset, which was able to segment mass lesions accurately with a sensitivity of 76.92%.",
+        "description": "This project was implemented for mammographic mass detection and segmentation using a multi-scale morphological sifting approach integrated with a mean shift filter, k-means, and post-processing that detects and segments masses. This implementation was evaluated on InBreast dataset and was able to segment mass lesions with a sensitivity of 76.92%.",
         "link": "https://github.com/abdalrhmanu/breast-mass-detection-and-segmentation-using-multi-scale-morphological-sifting-and-kmeans-clustering",
         "image": "./public/images/projects/breast-mass-segmentation.png",
         "image_animated": "./public/images/projects/breast-mass-segmentation-animated.png"
@@ -14,6 +14,14 @@
         "link": "https://github.com/abdalrhmanu/magnification-specific-breast-histopathology-image-classification-using-machine-and-deep-learning",
         "image": "./public/images/projects/magnification-specific-breast-histopathology-image-classification-using-machine-and-deep-learning.jpg",
         "image_animated": "./public/images/projects/magnification-specific-breast-histopathology-image-classification-using-machine-and-deep-learning-zoomed.jpg"
+    },
+    {    
+        "title": "Alzheimer Disease Classification using MRIs and Gene Expression Data",
+        "date": "June 11, 2023",
+        "description": "This project was implemented for developing three binary classifiers with various feature selection and validation methods for classifying between AD (macro-)stages, which are CTL, MCI, and AD. The dataset used contained both MRI and GE features for various number of patients. The final result was evaluated using AUC and MCC metrics.",
+        "link": "https://github.com/abdalrhmanu/alzheimer-disease-classification-using-MRIs-and-gene-expression-data",
+        "image": "./public/images/projects/alzheimer-disease-classification.png",
+        "image_animated": "./public/images/projects/alzheimer-disease-classification.png"
     },
     {    
         "title": "Regularized General Eigenvalue Classifier (ReGEC)",
@@ -71,6 +79,6 @@
         "link": "https://github.com/abdalrhmanu/lung-and-colon-cancer-histopathological-images-kaggle",
         "image": "./public/images/projects/histopathological-dataset.png",
         "image_animated": "./public/images/projects/histopathological-dataset.png",
-        "status": "Ongoing"
+        "status": ""
     }
 ]
