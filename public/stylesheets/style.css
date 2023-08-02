@@ -126,6 +126,7 @@ a:hover {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 8px;
     cursor: pointer;
+    position: relative;
 }
 
 /* .card:hover .card-image img {
@@ -147,6 +148,13 @@ a:hover {
 
 .card-content {
     padding: 20px;
+    height: 440px;
+}
+
+.date-content{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
 }
 
 .card-title {

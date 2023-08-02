@@ -32,7 +32,11 @@ fetch('.\\public\\json\\projects.json')
                     
                     if(object.date != ""){
                         html += 
-                        `<p class="card-date">${object.date}</p>`
+                        `
+                        <div class="date-content">
+                            <p class="card-date">${object.date}</p>
+                        </div>
+                        `
                     }
 
             html +=
@@ -62,10 +66,14 @@ fetch('.\\public\\json\\projects.json')
                 <div class="card-content">
                     <h3 class="card-title fs-118">${object.title} <span class="font-color-secondary fs-6 fst-italic">${object?.status ? `(${object?.status})` : ""}</span></h3>
                     <p class="card-description">${object.description}</p>`
-                    
+
                     if(object.date != ""){
                         html_projects_page += 
-                        `<p class="card-date">${object.date}</p>`
+                        `
+                        <div class="date-content">
+                            <p class="card-date">${object.date}</p>
+                        </div>
+                        `
                     }
 
                     html_projects_page +=
