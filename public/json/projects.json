@@ -1,12 +1,21 @@
 [
     {    
+        "title": "U-Net PyTorch Implementation for Medical Image Segmentation",
+        "date": "Aug 20, 2023",
+        "description": "This is an end-to-end implementation for UNet architecture using PyTorch for medical image segmentation. It consists of model training and testing, as well as dataset pre-processing that can be used on any dataset and excutable using a command line. The project has been tested on multiple medical images datasets.",
+        "link": "https://github.com/abdalrhmanu/unet-pytorch-segmentation",
+        "image": "./public/images/projects/unet-pytorch-implementation.jpg",
+        "image_animated": "./public/images/projects/unet-pytorch-implementation.jpg",
+        "status": ""
+    },
+    {    
         "title": "micrograd - a compact autograd engine that operates with scalar values and a neural network library",
         "date": "Aug 2, 2023",
         "description": "This is an open-source project to develop a machine learning framework encompassing a minimalistic scalar-valued autograd engine and a simple neural network library. The neural network library will offer a wide range of pre-implemented layers, activation and loss functions.",
         "link": "https://github.com/abdalrhmanu/micrograd",
         "image": "./public/images/projects/micrograd.png",
         "image_animated": "./public/images/projects/micrograd-animated.png",
-        "status": "Ongoing"
+        "status": ""
     },
     {    
         "title": "Breast Mass Detection and Segmentation Using Multi-scale Morphological Sifting and K-Means Clustering",
