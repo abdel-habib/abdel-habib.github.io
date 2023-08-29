@@ -92,6 +92,7 @@ fetch('.\\public\\json\\projects.json')
     if(projects_all) projects_all.innerHTML += html_projects_page;
 
     document.getElementById('projects-count').innerHTML = `(${count})`
+    document.getElementById("year").innerHTML = new Date().getFullYear();
 })
 .catch(error => console.error(error));
 

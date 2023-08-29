@@ -94,7 +94,7 @@ a:hover {
 }
 
 
-.hero-container .content img {
+.hero-container .content img, .footer-container .content img{
     width: 20px;
     margin-right: 3px;
 }
