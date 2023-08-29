@@ -160,9 +160,9 @@ a:hover {
 .card-title {
     /* font-size: 19px; */
     margin-bottom: 10px;
-    height: 92px;
+    height: 72px;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
