@@ -3,7 +3,7 @@
         "title": "U-Net PyTorch Implementation for Medical Image Segmentation",
         "date": "Aug 20, 2023",
         "description": "This is an end-to-end implementation for UNet architecture using PyTorch for medical image segmentation. It consists of model training and testing, as well as dataset pre-processing that can be used on any dataset and excutable using a command line. The project has been tested on multiple medical images datasets.",
-        "link": "https://github.com/abdalrhmanu/unet-pytorch-segmentation",
+        "link": "https://github.com/abdel-habib//unet-pytorch-segmentation",
         "image": "./public/images/projects/unet-pytorch-implementation.jpg",
         "image_animated": "./public/images/projects/unet-pytorch-implementation.jpg",
         "status": ""
@@ -12,7 +12,7 @@
         "title": "micrograd - a compact autograd engine that operates with scalar values and a neural network library",
         "date": "Aug 2, 2023",
         "description": "This is an open-source project to develop a machine learning framework encompassing a minimalistic scalar-valued autograd engine and a simple neural network library. The neural network library will offer a wide range of pre-implemented layers, activation and loss functions.",
-        "link": "https://github.com/abdalrhmanu/micrograd",
+        "link": "https://github.com/abdel-habib//micrograd",
         "image": "./public/images/projects/micrograd.png",
         "image_animated": "./public/images/projects/micrograd-animated.png",
         "status": ""
@@ -21,7 +21,7 @@
         "title": "Breast Mass Detection and Segmentation Using Multi-scale Morphological Sifting and K-Means Clustering",
         "date": "June 19, 2023",
         "description": "This project was implemented for mammographic mass detection and segmentation using a multi-scale morphological sifting approach integrated with a mean shift filter, k-means, and post-processing that detects and segments masses. This implementation was evaluated on InBreast dataset and was able to segment mass lesions with a sensitivity of 76.92%.",
-        "link": "https://github.com/abdalrhmanu/breast-mass-detection-and-segmentation-using-multi-scale-morphological-sifting-and-kmeans-clustering",
+        "link": "https://github.com/abdel-habib//breast-mass-detection-and-segmentation-using-multi-scale-morphological-sifting-and-kmeans-clustering",
         "image": "./public/images/projects/breast-mass-segmentation.png",
         "image_animated": "./public/images/projects/breast-mass-segmentation-animated.png"
     },
@@ -29,7 +29,7 @@
         "title": "Magnification Specific Breast Histopathology Image Classification Using Machine and Deep Learning",
         "date": "June 12, 2023",
         "description": "This project was implemented for an image classification task for breast cancer into benign and malignant classes from eight different subclasses. The BreaKHis dataset is utilized in this project to compare different approaches, using deep learning DenseNet architecture with transfer learning, and various machine learning algorithms (SVM, RF, and KNN).",
-        "link": "https://github.com/abdalrhmanu/magnification-specific-breast-histopathology-image-classification-using-machine-and-deep-learning",
+        "link": "https://github.com/abdel-habib//magnification-specific-breast-histopathology-image-classification-using-machine-and-deep-learning",
         "image": "./public/images/projects/magnification-specific-breast-histopathology-image-classification-using-machine-and-deep-learning.jpg",
         "image_animated": "./public/images/projects/magnification-specific-breast-histopathology-image-classification-using-machine-and-deep-learning-zoomed.jpg"
     },
@@ -37,7 +37,7 @@
         "title": "Alzheimer Disease Classification using MRIs and Gene Expression Data",
         "date": "June 11, 2023",
         "description": "This project was implemented for developing three binary classifiers with various feature selection and validation methods for classifying between AD (macro-)stages, which are CTL, MCI, and AD. The dataset used contained both MRI and GE features for various number of patients. The final result was evaluated using AUC and MCC metrics.",
-        "link": "https://github.com/abdalrhmanu/alzheimer-disease-classification-using-MRIs-and-gene-expression-data",
+        "link": "https://github.com/abdel-habib//alzheimer-disease-classification-using-MRIs-and-gene-expression-data",
         "image": "./public/images/projects/alzheimer-disease-classification.png",
         "image_animated": "./public/images/projects/alzheimer-disease-classification.png"
     },
@@ -45,7 +45,7 @@
         "title": "Regularized General Eigenvalue Classifier (ReGEC)",
         "date": "Mar 29, 2023",
         "description": "The project was aimed to implement ReGEC algorithm from scratch using R-programming language using different kernel types (linear and gaussian). The performance was evaluated using 4 datasets, which are Cleveland Heart Disease, Pima Indians, Breast Cancer, and German Datasets. The overall performance was significantly close or higher than the results reported in the paper.",
-        "link": "https://github.com/abdalrhmanu/Regularized-General-Eigenvalue-Classifier-ReGEC",
+        "link": "https://github.com/abdel-habib//Regularized-General-Eigenvalue-Classifier-ReGEC",
         "image": "./public/images/projects/svm.png",
         "image_animated": "./public/images/projects/svm.png"
     },
@@ -61,7 +61,7 @@
         "title": "Motion Compensated Pulse Rate Estimation",
         "date": "Oct 13, 2021",
         "description": "The project was aimed to build a regression model to predict the estimated hospitalization time for a patient in order to help select/filter patients and evaluate model bias and uncertainty. Perform exploratory data analysis in order to identify the dataset level and perform feature selection, and build necessary categorical and numerical feature transformations.",
-        "link": "https://github.com/abdalrhmanu/AI-for-Healthcare-Nanodegree/tree/main/Project%204",
+        "link": "https://github.com/abdel-habib//AI-for-Healthcare-Nanodegree/tree/main/Project%204",
         "image": "./public/images/projects/ppg-mechanics.png",
         "image_animated": "./public/images/projects/ppg-mechanics.png"
     },
@@ -69,7 +69,7 @@
         "title": "Hippocampal Volume Quantification in Alzheimer's Progression",
         "date": "Sep 15, 2021",
         "description": "The project was aimed to build an end-to-end AI system which features a machine learning algorithm to measure the hippocampal volumes by training a U-net based segmentation model, integrates the system into a clinical-grade viewer and automatically measures hippocampal volumes of new patients, and generate reports based on the algorithm output.",
-        "link": "https://github.com/abdalrhmanu/AI-for-Healthcare-Nanodegree/tree/main/Project%202/Hippocampal%20Volume%20Quantification%20in%20Alzheimer's%20Progression",
+        "link": "https://github.com/abdel-habib//AI-for-Healthcare-Nanodegree/tree/main/Project%202/Hippocampal%20Volume%20Quantification%20in%20Alzheimer's%20Progression",
         "image": "./public/images/projects/hippocampus-mri.jpg",
         "image_animated": "./public/images/projects/hippocampus-animated.gif"
     },
@@ -77,7 +77,7 @@
         "title": "Pneumonia Detection from Chest X-Rays",
         "date": "Sep 14, 2021",
         "description": "The project was aimed to apply It also includes exploratory data analysis (EDA) process on a chest x-rays dataset, train a model that can predict the presence of pneumonia with human radiologist-level accuracy that can be prepared for submission to the FDA for 510(k) clearance as software as a medical device, as well as clinical workflow integration.",
-        "link": "https://github.com/abdalrhmanu/AI-for-Healthcare-Nanodegree/tree/main/Project%201/Pneumonia%20Detection%20From%20Chest%20X-Rays%20-%20Solved",
+        "link": "https://github.com/abdel-habib//AI-for-Healthcare-Nanodegree/tree/main/Project%201/Pneumonia%20Detection%20From%20Chest%20X-Rays%20-%20Solved",
         "image": "./public/images/projects/pneumonia-detection.png",
         "image_animated": "./public/images/projects/pneumonia-detection-animated.gif"
     },
@@ -94,7 +94,7 @@
         "title": "Lung and Colon Cancer Histopathological Images",
         "date": "",
         "description": "The project was aimed to explore a daaset of 25,000 histopathological images of 5 classes, build an image classification model and evaluate it using various evaluation metrics. The images were generated from an original sample of HIPAA compliant and validated sources, consisting of 750 total images of lung tissue, and 500 total images of colon tissue, and augmented to 25,000.",
-        "link": "https://github.com/abdalrhmanu/lung-and-colon-cancer-histopathological-images-kaggle",
+        "link": "https://github.com/abdel-habib//lung-and-colon-cancer-histopathological-images-kaggle",
         "image": "./public/images/projects/histopathological-dataset.png",
         "image_animated": "./public/images/projects/histopathological-dataset.png",
         "status": ""
