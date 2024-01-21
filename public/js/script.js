@@ -13,7 +13,7 @@ const fetchProjects = async () => {
         let count = 0;
 
         const createCardHTML = (object, index, containerId) => {
-            const imageSrc = object?.image_animated || object.image;
+            const imageSrc = object.image || object?.image_animated;
             const cardClass = object.link ? 'card' : 'card inactive-link';
 
             return `
