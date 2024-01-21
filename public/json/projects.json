@@ -1,5 +1,29 @@
 [
     {    
+        "title": "ISIC2019 Skin Lesion Classification & Segmentation",
+        "date": "Jan 17, 2024",
+        "description": "ISIC2019 skin lesion classification (binary & multi-class) as well as segmentation pipelines using VGG16_BN and visual attention blocks. The project features improving the results found in the literature by implementing an ensemble architecture. This project was developed for 'Computer Aided Diagnosis - CAD' course for MAIA masters program.",
+        "link": "https://github.com/abdel-habib/ISIC2019-skin-lesion-classification-segmentation",
+        "image": "./public/images/projects/isic2019.png",
+        "image_animated": "./public/images/projects/isic2019.png",
+        "status": ""
+    },{    
+        "title": "IBSR 2018 Brain Tissue Segmentation",
+        "date": "Jan 12, 2024",
+        "description": "Brain tissue (WM, GM, CSF) segmentation using both multi-atlas and nnUNet approaches. This project was developed for a course titled 'Medical Image Segmentation and Applications' - MISA under MAIA master program.",
+        "link": "https://github.com/abdel-habib/IBSR18-brain-tissue-segmentation",
+        "image": "./public/images/projects/ibsr-seg.png",
+        "image_animated": "./public/images/projects/ibsr-seg.gif",
+        "status": ""
+    },{    
+        "title": "COPD-gene Computed Tomography Registration",
+        "date": "Jan 5, 2024",
+        "description": "Registration of image sets and reference data of inspiratory and expiatory breath-hold CT image pairs acquired from the National Heart Lung Blood Institute COPDgene study archive. This project was developed for a course titled 'Medical Image Registration and Applications' - MIRA under MAIA master program.",
+        "link": "https://github.com/abdel-habib/COPDgene-CT-registration",
+        "image": "./public/images/projects/copd-reg.png",
+        "image_animated": "./public/images/projects/copd-reg.png",
+        "status": ""
+    },{    
         "title": "U-Net PyTorch Implementation for Medical Image Segmentation",
         "date": "Aug 20, 2023",
         "description": "This is an end-to-end implementation for UNet architecture using PyTorch for medical image segmentation. It consists of model training and testing, as well as dataset pre-processing that can be used on any dataset and excutable using a command line. The project has been tested on multiple medical images datasets.",
