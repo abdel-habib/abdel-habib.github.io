@@ -24,6 +24,14 @@
         "image_animated": "./public/images/projects/copd-reg.png",
         "status": ""
     },{    
+        "title": "Brain Tissue Segmentation using Expectation Maximization and Probabilistic Atlases",
+        "date": "Nov 20, 2023",
+        "description": "This is an implementation for Expectation Maximization (EM) algorithm using both intinsity and position information obtained from atlases. It utilises both probabilistic and MNITemplate atlases to segment the three brain tissues (WM, GM, CSF) using different initialization methods (random, k-means, tissue model only, atlas only, tissue-model-atlas).",
+        "link": "https://github.com/abdel-habib/medical-image-segmentation-and-applications/tree/main/Lab%203",
+        "image": "./public/images/projects/em-seg-lab.png",
+        "image_animated": "./public/images/projects/em-seg-lab-animation.gif",
+        "status": ""
+    },{    
         "title": "U-Net PyTorch Implementation for Medical Image Segmentation",
         "date": "Aug 20, 2023",
         "description": "This is an end-to-end implementation for UNet architecture using PyTorch for medical image segmentation. It consists of model training and testing, as well as dataset pre-processing that can be used on any dataset and excutable using a command line. The project has been tested on multiple medical images datasets.",
@@ -31,8 +39,7 @@
         "image": "./public/images/projects/unet-pytorch-implementation.jpg",
         "image_animated": "./public/images/projects/unet-pytorch-implementation.jpg",
         "status": ""
-    },
-    {    
+    },{    
         "title": "micrograd - a compact autograd engine that operates with scalar values and a neural network library",
         "date": "Aug 2, 2023",
         "description": "This is an open-source project to develop a machine learning framework encompassing a minimalistic scalar-valued autograd engine and a simple neural network library. The neural network library will offer a wide range of pre-implemented layers, activation and loss functions.",
