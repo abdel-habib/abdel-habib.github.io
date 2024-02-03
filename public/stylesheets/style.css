@@ -1,7 +1,7 @@
 :root {
     --white: #fff;
     --black: #000;
-    --gray: #eee;
+    --gray: #8a8a8a;
     --primary-font-color: #13131b;
     --secondary-font-color: #F60000;
     --box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
@@ -114,12 +114,13 @@ a:hover {
     flex-wrap: wrap;
     /* overflow-x: auto; */
     /* scroll-snap-type: x mandatory; */
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .card {
     flex: 0 0 auto;
     width: 304px;
+    height: 514px;
     margin-right: 20px;
     margin-bottom: 20px;
     scroll-snap-align: start;
@@ -148,7 +149,6 @@ a:hover {
 
 .card-content {
     padding: 20px;
-    height: 440px;
 }
 
 .date-content{
@@ -173,7 +173,14 @@ a:hover {
 .card-description {
     font-size: 16px;
     margin-bottom: 10px;
-    text-align: justify; 
+    text-align: justify;
+    height: 140px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; 
 }
 
 .card-date {

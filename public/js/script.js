@@ -41,7 +41,7 @@ const fetchProjects = async () => {
                 </a>`;
         };
 
-        data.slice(0, 4).forEach((object, index) => {
+        data.slice(0, 8).forEach((object, index) => {
             html += createCardHTML(object, index, 'card-slider');
         });
 
