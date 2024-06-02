@@ -4,8 +4,8 @@
         "date": "",
         "description": "The primary task of this project is to design and train a module that facilitates effective communication between the image classifier and the text generator, translating the extracted features into a coherent and clinically useful mammography report. The project underscores the necessity to understand the clinical implications to adequately design the system.",
         "link": "",
-        "image": "./public/images/projects/thesis-53582737_465aa5ec1b59efc6_MG_L_ML_ANON.png",
-        "image_animated": "./public/images/projects/thesis-53582737_465aa5ec1b59efc6_MG_L_ML_ANON.png",
+        "image": "./public/images/projects/exam-level generated report.png",
+        "image_animated": "./public/images/projects/exam-level generated report.png",
         "status": "Onoing"
     },{    
         "title": "ISIC2019 Skin Lesion Classification & Segmentation",
