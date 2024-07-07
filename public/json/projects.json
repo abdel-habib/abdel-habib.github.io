@@ -6,7 +6,7 @@
         "link": "",
         "image": "./public/images/projects/exam-level-generated-report.png",
         "image_animated": "./public/images/projects/exam-level-generated-report.png",
-        "status": "Onoing"
+        "status": ""
     },{    
         "title": "ISIC2019 Skin Lesion Classification & Segmentation",
         "date": "Jan 17, 2024",
