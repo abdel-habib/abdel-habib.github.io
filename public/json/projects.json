@@ -1,5 +1,21 @@
 [
     {    
+        "title": "QnA Chatbot implementation with semantic search for Custom OpenAI Chatbot and promt-engineering",
+        "date": "Dec 15, 2024",
+        "description": "This project focuses on developing a custom chatbot designed to analyze and interact with users. The project initially explores datasets to find the most appropriate one for generating insightful and engaging chatbot conversations. It utilizes in-context prompting and a custom dataset to answer user queries and provide relevant information. The project also includes a semantic search engine to enhance the chatbot's performance.",
+        "link": "https://github.com/abdel-habib/generative-ai-nanodegree/blob/main/Course%203/project/project.ipynb",
+        "image": "./public/images/projects/custom-chatbot.png",
+        "image_animated": "./public/images/projects/custom-chatbot.png",
+        "status": ""
+    },{    
+        "title": "Lightweight fine-tuning-Bert for sequence classification using Parameter-Efficient Fine-Tuning",
+        "date": "Oct 30, 2024",
+        "description": "The primary task of this project is to fine-tune BERT model usisng PEFT technique on an text-label dataset for the task of text classification. This techniques avoids training the model from scratch and optimizes the performance on a specific task.",
+        "link": "https://github.com/abdel-habib/generative-ai-nanodegree/blob/main/Course%202/Project/Lightweight-Fine-Tuning-LoRa.ipynb",
+        "image": "./public/images/projects/fintunin-bert-lora.png",
+        "image_animated": "./public/images/projects/fintunin-bert-lora.png",
+        "status": ""
+    },{    
         "title": "Automated Mammography Reporting through Image-to-Text Translation",
         "date": "June 26, 2024",
         "description": "The primary task of this project is to design and train a module that facilitates effective communication between the image classifier and the text generator, translating the extracted features into a coherent and clinically useful mammography report. The project underscores the necessity to understand the clinical implications to adequately design the system.",
